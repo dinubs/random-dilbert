@@ -57,6 +57,6 @@ http.createServer(function(req, res) {
 			res.end();
 		});	
 	}
-}).listen(8000, function() {
+}).listen(process.env.PORT || 8000, function() {
 	console.log('Listening on 8000');
 });
