@@ -2,10 +2,12 @@
   "name": "random-dilbert",
   "version": "1.0.0",
   "description": "",
-  "main": "get-number.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Console UI Team <consoleteam@pearson.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }

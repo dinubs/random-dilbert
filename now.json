@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "random-dilbert",
+  "builds": [
+    { "src": "actions/*.js", "use": "@now/node" },
+    { "src": "index.html", "use": "@now/static" },
+    { "src": "public/*", "use": "@now/static" }
+  ]
+}
